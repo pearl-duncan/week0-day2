@@ -189,6 +189,25 @@ for x in range(5):
 print(counter)
 
 
+num_ex = 456
+num_ex1 = 45234
+num_ex2 = 45547
+
+if num_ex % 2 == 0:
+    print(f'Number is even!!!--->{num_ex}')
+else:
+    print(f'Number is odd-->{num_ex}')
+
+
+def odds(num):
+    if num % 2 ==0:
+        print(f'number is even--> {num}')
+    else:
+        return 'odd'
+odds(num_ex1)
+odds(num_ex2)
+odds(num_ex)
+
 
 
 
